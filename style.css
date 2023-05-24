@@ -206,3 +206,9 @@ li a {
 .btn-secondary {
     border: 2px solid #E5E7EB;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 32px 0;
+    color: #E5E7EB;
+}
