@@ -32,12 +32,13 @@
 
 /* === END RESET === */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300:0,400;0,500;0,700;1,300&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0 auto;
+    
 }
 
 nav, .hero {
@@ -48,3 +49,33 @@ nav, .hero {
 .quote {
     background-color: #E5E7EB;
 }
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+li a {
+    color: #e5e7eb;
+    font-size: 18px;
+};
+   
+
