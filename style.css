@@ -118,7 +118,6 @@ li a {
 
 .btn {
     display: inline-block;
-    background-color: green;
     padding: 8px 24px;
     border-radius: 8px;
     color: white;
@@ -126,4 +125,36 @@ li a {
 
 .btn-primary {
     background-color: #3882f6;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 64px;
+}
+
+.section-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882f6
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
